@@ -1,0 +1,14 @@
+.up {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.up__link {
+    color: white;
+    cursor: pointer;
+}

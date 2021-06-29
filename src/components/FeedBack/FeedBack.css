@@ -1,0 +1,13 @@
+.feedback {
+    background-image: url(../../images/portfolio-bg.jpg);
+}
+
+.feedback__form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.forms {
+    padding: 30px;
+    border: none;
+}
