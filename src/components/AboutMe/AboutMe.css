@@ -21,7 +21,7 @@
     font-size: 20px;
     line-height: 28px;
     background-color: rgba(1,2,3,0.6);
-    padding: 30px;
+    padding: 15px;
 }
 
 .about-me__my-photo {
@@ -81,6 +81,11 @@
     background-color: rgba(1,1,1,0.6);
     padding: 10px;
     margin: 0;
+}
+
+.text-link {
+    color: #6586A7;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {

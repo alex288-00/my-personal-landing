@@ -59,7 +59,8 @@ export const cardsFreelans = [
     {
         img: kwork,
         text: "Принимаю заказы на фриланс-бирже Kwork",
-        alt: "Kwork"
+        alt: "Kwork",
+        link: "https://kwork.ru/user/weblex"
     }
 ]
 

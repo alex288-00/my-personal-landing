@@ -7,6 +7,12 @@
   }
 }
 
+@keyframes App-logo-spin-stop {
+  from {
+    transform: none;
+  }
+}
+
 .header {
   height: 100vh;
   width: 100%;
@@ -48,13 +54,14 @@
 }
 
 .header__link-active {
-  border-bottom: 2px solid #61dafb;
+  border-bottom: 4px solid #61dafb;
 }
 
 .header__link:hover {
   /* opacity: 0.6;
   transition: linear 0.4s; */
-  border-bottom: 2px solid #61dafb;
+  border-bottom: 4px solid #61dafb;
+  color: white;
 }
 
 .header__title {
@@ -103,7 +110,12 @@
   .header__logo-react {
     animation: App-logo-spin infinite 20s linear;
   }
+  .header__logo-react:hover {
+    animation: App-logo-spin-stop ;
+  }
 }
+
+
 
 @media screen and (max-width: 1442px) {
 

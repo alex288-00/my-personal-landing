@@ -25,7 +25,13 @@
     font-weight: 300;
     color: #C6C2B6;
     text-decoration: none;
+    transition: linear 1s;
+}
 
+.footer__link:hover {
+    color: #C6C2B6;
+    opacity: 0.7;
+    transition: linear 0.5s;
 }
 
 .footer__list {
