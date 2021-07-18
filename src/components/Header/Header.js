@@ -53,7 +53,7 @@ function Header () {
                     <Link
                     className="header__link"
                     activeClass="header__link-active"
-                    to="feedback"
+                    to="feedbacks"
                     spy={true}
                     smooth={true}
                     duration={700}

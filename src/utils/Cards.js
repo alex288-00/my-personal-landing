@@ -14,6 +14,8 @@ import elton from "../images/elton.ru.png"
 import mskSmesy from "../images/msk-smesy.ru.png"
 import oneLoft from "../images/one-loft.ru.png"
 import toolshop from "../images/toolshop.su.png"
+import gangga from "../images/gangga.ru.png"
+import himauto from "../images/him-auto.ru.png"
 
 export const cardsSkill = [
     {
@@ -112,6 +114,18 @@ export const cardsPortfolioFreelans = [
         text: "Интернет-магазин мебели в стиле лофт",
         alt: "Интернет-магазин мебели в стиле лофт",
         link: "https://one-loft.ru/"
+    },
+    {
+        img: gangga,
+        text: "Магазин аюрведы",
+        alt: "Интернет-магазин аюрведы",
+        link: "https://gangga.ru"
+    },
+    {
+        img: himauto,
+        text: "Магазин автохимии",
+        alt: "Интернет магазин автохимии",
+        link: "https://him-auto.ru"
     }
 
 ]

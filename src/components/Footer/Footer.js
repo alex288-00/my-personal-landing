@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function Footer () {
     return (
-        <footer id="feedback" className="footer">
+        <footer className="footer">
             <nav className="footer__navigation">
                 <ul className="footer__list">
                 <li className="footer__list"><p className="footer__autor">Алексей Смирнов</p></li>
