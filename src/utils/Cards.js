@@ -7,15 +7,18 @@ import git from "../images/git.jpg";
 import node from "../images/node.png";
 import webasyst from "../images/webasyst.jpg"
 import kwork from "../images/kwork.jpg";
-import howToLern from "../images/lern.png"
-import travel from "../images/travel.png"
-import mesto from "../images/mesto.png"
-import elton from "../images/elton.ru.png"
-import mskSmesy from "../images/msk-smesy.ru.png"
-import oneLoft from "../images/one-loft.ru.png"
-import toolshop from "../images/toolshop.su.png"
-import gangga from "../images/gangga.ru.png"
-import himauto from "../images/him-auto.ru.png"
+import howToLern from "../images/lern-min.png"
+import travel from "../images/travel-min.png"
+import mesto from "../images/mesto-min.png"
+import elton from "../images/elton.ru-min.png"
+import mskSmesy from "../images/msk-smesy.ru-min.png"
+import oneLoft from "../images/one-loft.ru-min.png"
+import toolshop from "../images/toolshop.su-min.png"
+import gangga from "../images/gangga.ru-min.png"
+import himauto from "../images/him-auto.ru-min.png"
+import trendcar from "../images/trendcar.ru-min.png"
+import tuningcar63 from "../images/tuningcars63.ru-min.png"
+
 
 export const cardsSkill = [
     {
@@ -125,8 +128,20 @@ export const cardsPortfolioFreelans = [
     {
         img: himauto,
         text: "Магазин автохимии",
-        alt: "Интернет магазин автохимии",
+        alt: "Интернет-магазин автохимии",
         link: "https://him-auto.ru"
+    },
+    {
+        img: trendcar,
+        text: "Магазин аудио-видео техники для автомобилей",
+        alt: "Магазин аудио-видео техники для автомобилей",
+        link: "https://www.trendcar.ru/"
+    },
+    {
+        img: tuningcar63,
+        text: "Магазин тюнинга автомобилей",
+        alt: "Магазин тюнинга автомобилей",
+        link: "https://tuningcars63.ru/"
     }
 
 ]

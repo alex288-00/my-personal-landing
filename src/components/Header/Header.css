@@ -16,7 +16,7 @@
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url(../../images/header.png);
+  background-image: url(../../images/header-min.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -29,16 +29,16 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 10px;
+  top: -15px;
   margin: 0;
   z-index: 1;
 }
 
 .header__list {
   list-style: none;
-  width: 350px;
+  width: 360px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0;
   color: white;
   /* padding-top: 30px; */
@@ -50,18 +50,63 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
-  background: #6586A7;
+  /* background: #6586A7; */
+  height: 22px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.header__button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(130deg, #597698 22%, #61dafb);
+  transition: ease-in-out 2s;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header__button_burger {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  /* background: linear-gradient(130deg, #597698 22%, #61dafb); */
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header__button:hover {
+  background: linear-gradient(130deg, #597698, #61dafb 22%);
+  color: #ffffff;
+  transition: ease-in-out 1s;
+  transform: scale(1.1);
+  /* opacity: 0.6; */
 }
 
 .header__link-active {
-  border-bottom: 4px solid #61dafb;
+  /* opacity: 0.6; */
+  background: linear-gradient(130deg, #597698 22%, #61dafb);
+
+  color: black;
+
+
 }
 
 .header__link:hover {
   /* opacity: 0.6;
   transition: linear 0.4s; */
-  border-bottom: 4px solid #61dafb;
-  color: white;
+  /* opacity: 0,6; */
+    background: linear-gradient(130deg, #597698 22%, #61dafb);
+
+  color: black;
+  /* color: white; */
 }
 
 .header__title {
@@ -104,6 +149,45 @@
   display: none;
   color: #ffffff;
   font-size: 35px;
+}
+
+
+.arrow-down {
+  margin: 30px;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 20px;
+  cursor: pointer;
+}
+.arrow-down span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #61dafb;
+  border-right: 5px solid #61dafb;
+  transform: rotate(45deg);
+  margin: -16px;
+  animation: arrow-down 2s infinite;
+}
+.arrow-down span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrow-down span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes arrow-down {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -153,6 +237,10 @@
 
   .burger-button {
     display: block;
+  }
+
+  .arrow-down {
+    display: none;
   }
 }
 

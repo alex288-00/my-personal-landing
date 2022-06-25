@@ -1,6 +1,6 @@
 import "./AboutMe.css";
 // import {ABOUTME} from "../../utils/Text";
-import photo from "../../images/my_photo.jpg";
+import photo from "../../images/my_photo-min.jpg";
 import {cardsSkill, cardsFreelans} from "../../utils/Cards";
 
 function AboutMe () {
@@ -10,7 +10,7 @@ function AboutMe () {
             <div className="about-me__info">
             <img className="about-me__my-photo" src={photo} alt="Это я)"></img>
             <div className="aboutme-text">
-                 <p className="about-me__title">Меня зовут Алексей. Мне 31 год. Я - веб-разработчик. Закончил курсы <a className="text-link" href="https://praktikum.yandex.ru" target="blank">Яндекс.Практикум.</a></p>
+                <p className="about-me__title">Меня зовут Алексей. Мне 31 год. Я - веб-разработчик. Закончил курсы <a className="text-link" href="https://praktikum.yandex.ru" target="blank">Яндекс.Практикум.</a></p>
                 <p className="about-me__title">Основное направление это front-end, но также изучал и back-end. В настоящий момент продолжаю изучение JavaScript - убежден, что за языком будущее. Продолжаю изучение различных библиотек и фреймворков (сайт написан на React - погрузился в изучение данной библиотеки, весьма перспективная и набирает популярность по всему миру).</p>
                 <p className="about-me__title">Планирую изучать и другие языки программирования для своего интереса и общего развития. Целиком настроен на дальнейшее развитие в сфере веб-разработки.</p>
                 

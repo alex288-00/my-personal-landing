@@ -1,7 +1,7 @@
 .portfolio {
     width: 100%;
     min-height: 100vh;
-    background-image: url(../../images/portfolio-bg.jpg);
+    background-image: url(../../images/portfolio-bg-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,9 +54,52 @@
     height: 231px;
 }
 
+.zakaz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+.portfolio__title-zakaz {
+    margin-bottom: 30px;
+    background: #597698;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__button-zakaz {
+    height: 70px;
+    font-size: 18px;
+    width: 100%;
+    background: linear-gradient(130deg, #597698, #61dafb, #fff);
+}
+
+.burger__button-zakaz {
+    display: none;
+}
+
+.aboutme-text-zakaz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (max-width: 800px) {
     .portfolio__title {
         font-size: 36px;
+    }
+
+    .header__button-zakaz {
+        display: none;
+    }
+
+    .burger__button-zakaz {
+        display: block;
     }
   }
 
@@ -74,5 +117,9 @@
     .portfolio__cards {
         grid-template-columns: repeat(auto-fit, 274px);
         grid-template-rows: repeat(auto-fit, 292px);
+      }
+
+      .header__button-zakaz {
+        max-width: 290px;
       }
   }
