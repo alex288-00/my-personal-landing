@@ -1,5 +1,5 @@
 <?php
-$path_to_image='https://bongo-shop.com/wa-data/public/site/banner/checkmark.png';
+$path_to_image= '../media/checkmark.png';
 
 
 $fio = $_POST['fio'];
@@ -69,15 +69,15 @@ $token = "5312628417:AAGcQKDDGMpbYedpNcXiJiBla8BQ5FyXG14";
 $chat_id = "-638129194";
 
 if (parser("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$body}") && mail("alex288.00@mail.ru", "Заявка с сайта", $email_body , $headers))
- {     echo '<p style="font-size: 30px; text-align: center;margin-top: 50px;">Заявка успешно отправлена</p>';
-  echo '<p style="font-size: 18px; text-align: center;margin-top: 20px;">В ближайшее время мы свяжемся с вами</p>';
+ {     echo '<p style="font-size: 30px; text-align: center;margin-top: 50px;">Спасибо, заявка успешно отправлена</p>';
+  echo '<p style="font-size: 18px; text-align: center;margin-top: 20px;">Скоро я свяжусь с вами</p>';
   echo '<img style="
   width: 200px;
   height: 200px;
   margin: 0 auto;
   display: flex;
 " src="', $path_to_image, '">';
-echo '<a style="display: flex;justify-content: center;align-items: center;font-size: 18px;margin: 0 auto;margin-top: 30px;height: 30px;width: 219px;background: #1E87F0;text-decoration: none;color: #fff;padding: 10px;border-radius: 3px;" href="https://asmirnov.su/">Вернуться на главную</a>';
+echo '<a style="display: flex;justify-content: center;align-items: center;font-size: 18px;margin: 0 auto;margin-top: 30px;height: 30px;width: 219px;background: #1E87F0;text-decoration: none;color: #fff;padding: 10px;border-radius: 3px;" href="https://asmirnov.su/">Вернуться назад</a>';
       
 } else {
     echo "при отправке сообщения возникли ошибки";
@@ -105,7 +105,5 @@ echo '<a style="display: flex;justify-content: center;align-items: center;font-s
 ?>
 
 
-<!-- 5312628417:AAGcQKDDGMpbYedpNcXiJiBla8BQ5FyXG14
--638129194 -->
 
 

@@ -11,14 +11,12 @@ function FeedBack ({isOpen, onClose}) {
             {/* <h2 className="portfolio__title">Обратная связь</h2> */}
             
             <div className="feedback__form">
-            \
+            
             <form className="form" action={mail} method="post">
     <label className="form__label" for="fio">Ваше имя <span class="form__span">*</span></label>
     <input className="form__input" id="fio" type="text" name="fio" placeholder="Имя" required/>
     <label className="form__label" for="phone">Почта <span class="form__span">*</span></label>
     <input className="form__input" id="phone" type="email" name="email" placeholder="Email" required />
-    {/* <label className="form__label" for="auto">Марка/модель автомобиля <span class="form__span">*</span></label> */}
-    {/* <input className="form__input" id="auto" type="text" name="auto" placeholder="Например: Ford Focus 2" required /> */}
     {/* <label className="form__label" for="year">Год выпуска <span class="form__span">*</span></label> */}
     {/* <input className="form__input" id="year"  type="number" name="year" placeholder="Год выпуска автомобиля" required /> */}
     <label className="form__label" for="massage">Какую задачу нужно решить? <span class="form__span">*</span></label>
